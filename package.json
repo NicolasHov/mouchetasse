@@ -1,0 +1,15 @@
+{
+  "name": "mouchetasse",
+  "version": "1.0.5",
+  "description": "Minimalist templating tool for TypeScript",
+  "homepage": "https://github.com/NicolasHov/mouchetasse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Hovart <hovart.nicolas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.2"
+  }
+}
