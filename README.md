@@ -45,3 +45,12 @@ app.listen(port, () => {
 </body>
 </html>
 ```
+
+
+## Unit tests
+
+Run the test:
+
+```
+npm jest
+```
