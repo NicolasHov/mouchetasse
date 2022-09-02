@@ -1,8 +1,10 @@
 {
   "name": "mouchetasse",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Minimalist templating tool for TypeScript",
   "homepage": "https://github.com/NicolasHov/mouchetasse",
+  "url" : "https://github.com/NicolasHov/mouchetasse/issues",
+  "email" : "hovart.nicolas@gmail.com",
   "main": "index.js",
   "scripts": {
     "test": "jest"
