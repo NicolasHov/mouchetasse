@@ -27,4 +27,8 @@ jobs:
 
       # Runs the test
       - name: Run a one-line script
+        run: npm install
+
+      # Runs the test
+      - name: Run a one-line script
         run: npm test
