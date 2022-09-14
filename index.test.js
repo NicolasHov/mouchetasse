@@ -5,4 +5,3 @@ describe("compile function", () => {
         expect(compile(`<div>{{name}}</div>`, { name: "thierry" })).toBe(`<div>thierry</div>`);
     });
 });
-

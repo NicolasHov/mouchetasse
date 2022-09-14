@@ -4,7 +4,7 @@
 
 _Minimalist templating tool for TypeScript_
 
-## Get started 
+## Get started
 
 Install the package:
 
