@@ -25,10 +25,15 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      # Specify the version of the Node.js 
+      - uses: actions/setup-node@v3
+          with:
+            node-version: '18'
+            
       # Runs the test
-      - name: Run a one-line script
-        run: npm install
+      - name: Install the packages
+        run: npm ci
 
       # Runs the test
-      - name: Run a one-line script
+      - name: Launch the tests
         run: npm test
