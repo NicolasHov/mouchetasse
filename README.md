@@ -4,6 +4,7 @@
 
 _Minimalist templating tool for TypeScript_
 
+
 ## Get started 
 
 Install the package:
@@ -59,3 +60,10 @@ Run the test:
 ```
 npm jest
 ```
+
+
+## ROADMAP
+
+  - Add conditionnals
+  
+  - make it work for mardkown...
